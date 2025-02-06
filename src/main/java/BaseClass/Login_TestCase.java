@@ -31,7 +31,6 @@ public class Login_TestCase {
         lp.setPassword("admin123");
         lp.clickLogin();
         Assert.assertEquals(driver.getTitle(),"OrangeHRM");
-
     }
 
     @AfterClass
